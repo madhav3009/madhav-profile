@@ -3,8 +3,8 @@ import { Mail, Phone, Linkedin, Github } from "lucide-react";
 export const Header = () => {
   return (
     <header className="animate-fade-up space-y-4">
-       <h2 className="text-3xl font-semibold text-primary">MADHAV</h2>
-      <h2 className="text-3xl font-bold tracking-tight text-secondary">
+       <h2 className="text-3xl font-bold tracking-tight text-secondary">MADHAV</h2>
+      <h2 className="text-3xl font-bold">
         Software Engineer - Backend — Payments
       </h2>
       <div className="flex flex-col space-y-2">
