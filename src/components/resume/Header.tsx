@@ -4,9 +4,9 @@ export const Header = () => {
   return (
     <header className="animate-fade-up space-y-4">
       <h2 className="text-3xl font-bold">MADHAV</h2>
-      <h2 className="text-3xl font-bold">
-        Software Engineer - Backend — Payments
-      </h2>
+      <h3 className="text-2xl font-semibold">
+        Software Engineer - Backend 
+      </h3>
       <div className="flex flex-col space-y-2">
         <a href="tel:+919910936527" className="flex items-center gap-2 hover:text-secondary transition-colors w-fit">
           <Phone size={18} />
