@@ -48,7 +48,7 @@ export const Skills = () => {
     <section className="animate-fade-up space-y-4 w-full">
       <div className="flex items-center gap-2 mb-6">
         <Briefcase className="text-secondary" size={24} />
-        <h2 className="text-2xl font-semibold">Technical Skills</h2>
+        <h2 className="text-2xl font-semibold">Skills</h2>
       </div>
       <div className="space-y-6">
         {skillCategories.map((category) => (

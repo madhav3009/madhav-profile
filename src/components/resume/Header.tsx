@@ -3,10 +3,10 @@ import { Mail, Phone, Linkedin, Github } from "lucide-react";
 export const Header = () => {
   return (
     <header className="animate-fade-up space-y-4">
-      <h1 className="text-4xl font-bold tracking-tight text-secondary">
+       <h2 className="text-3xl font-semibold text-primary">MADHAV</h2>
+      <h2 className="text-3xl font-bold tracking-tight text-secondary">
         Software Engineer - Backend — Payments
-      </h1>
-      <h2 className="text-3xl font-semibold text-primary">MADHAV</h2>
+      </h2>
       <div className="flex flex-col space-y-2">
         <a href="tel:+919910936527" className="flex items-center gap-2 hover:text-secondary transition-colors w-fit">
           <Phone size={18} />
