@@ -48,31 +48,31 @@ export const Experience = () => {
   return (
     <section className="animate-fade-up space-y-6">
       <div className="flex items-center gap-2 mb-6">
-        <Building2 className="text-secondary" size={24} />
-        <h2 className="text-2xl font-semibold">Experience</h2>
+        <Building2 className="text-primary" size={24} />
+        <h2 className="text-xl font-semibold">Experience</h2>
       </div>
       <div className="space-y-8">
         {experiences.map((exp) => (
           <div
             key={exp.company}
-            className="p-6 bg-accent rounded-lg hover:shadow-lg transition-shadow duration-300"
+            className="p-6 bg-accent/10 rounded-sm hover:bg-accent/20 transition-all duration-300 border border-accent/20"
           >
             <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
               <div>
-                <h3 className="text-xl font-semibold text-secondary">{exp.company}</h3>
-                <p className="text-primary font-medium">{exp.title}</p>
+                <h3 className="text-lg font-semibold text-primary">{exp.company}</h3>
+                <p className="text-gray-300 font-medium">{exp.title}</p>
               </div>
-              <p className="text-sm text-primary">{exp.period}</p>
+              <p className="text-sm text-gray-400">{exp.period}</p>
             </div>
             <ul className="list-disc list-inside space-y-2">
               {exp.highlights.map((highlight, index) => (
-                <li key={index} className="text-sm leading-relaxed">
+                <li key={index} className="text-sm leading-relaxed text-gray-200">
                   {highlight.split(/(\d+[\d,]*[+%]?)/).map((part, i) => (
                     <span
                       key={i}
                       className={
                         /\d+[\d,]*[+%]?/.test(part)
-                          ? "text-secondary font-semibold"
+                          ? "text-primary font-semibold"
                           : ""
                       }
                     >

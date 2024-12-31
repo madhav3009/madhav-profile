@@ -19,7 +19,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["Segoe UI", "Inter", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -28,15 +28,15 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#64748b",
+          DEFAULT: "#0078D4", // Microsoft Blue
           foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#0ea5e9",
+          DEFAULT: "#2B579A", // Microsoft Secondary Blue
           foreground: "#ffffff",
         },
         accent: {
-          DEFAULT: "#1e1e1e",
+          DEFAULT: "#106EBE", // Microsoft Accent Blue
           foreground: "#ffffff",
         },
         dark: {
