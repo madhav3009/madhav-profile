@@ -13,7 +13,7 @@ const Index = () => {
         <div className="flex flex-col md:flex-row items-start gap-8">
           <div className="w-full md:w-1/4 flex flex-col items-center space-y-4">
             <Avatar className="w-48 h-48">
-              <AvatarImage src="/placeholder.svg" alt="Madhav" />
+              <AvatarImage src="https://ca.slack-edge.com/T01MC3460BT-U07PRC2Q6ER-b77b22feb51b-512" alt="Madhav" />
               <AvatarFallback>
                 <User className="w-24 h-24 text-secondary" />
               </AvatarFallback>
