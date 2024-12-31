@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,26 +6,26 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
-    --card: 0 0% 0%;
-    --card-foreground: 0 0% 100%;
-    --popover: 0 0% 0%;
-    --popover-foreground: 0 0% 100%;
-    --primary: 207 100% 42%; /* Microsoft Blue */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+    --primary: 197 85% 43%; /* Google Blue */
     --primary-foreground: 0 0% 100%;
-    --secondary: 215 57% 38%; /* Microsoft Secondary Blue */
+    --secondary: 199 84% 57%; /* Light Google Blue */
     --secondary-foreground: 0 0% 100%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 206 83% 41%; /* Microsoft Accent Blue */
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 217 89% 61%; /* Google Accent Blue */
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 206 83% 41%;
-    --radius: 0.25rem; /* Microsoft uses slightly smaller border radius */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 197 85% 43%;
+    --radius: 0.5rem;
   }
 
   * {
@@ -33,6 +33,6 @@
   }
 
   body {
-    @apply bg-dark text-white font-sans;
+    @apply bg-white text-dark font-sans;
   }
 }

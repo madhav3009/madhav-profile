@@ -48,17 +48,17 @@ export const Skills = () => {
     <section className="animate-fade-up space-y-4 w-full">
       <div className="flex items-center gap-2 mb-6">
         <Briefcase className="text-primary" size={24} />
-        <h2 className="text-xl font-semibold">Skills</h2>
+        <h2 className="text-xl font-semibold text-dark">Skills</h2>
       </div>
       <div className="space-y-6">
         {skillCategories.map((category) => (
           <div key={category.title} className="space-y-2">
-            <h3 className="font-medium text-gray-300 text-sm">{category.title}</h3>
+            <h3 className="font-medium text-dark/80 text-sm">{category.title}</h3>
             <div className="flex flex-wrap gap-2">
               {category.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 py-1 bg-accent/10 border border-accent/20 rounded-sm text-xs hover:bg-primary hover:border-primary transition-colors duration-200"
+                  className="px-3 py-1 bg-gray-50 border border-gray-200 rounded-md text-xs hover:bg-primary hover:text-white hover:border-primary transition-colors duration-200"
                 >
                   {skill}
                 </span>
