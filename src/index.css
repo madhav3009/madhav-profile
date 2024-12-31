@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,25 +6,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 20%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 20%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 20%;
-    --primary: 197 85% 43%; /* Google Blue */
-    --primary-foreground: 0 0% 100%;
-    --secondary: 199 84% 57%; /* Light Google Blue */
-    --secondary-foreground: 0 0% 100%;
-    --muted: 0 0% 95%;
-    --muted-foreground: 0 0% 45%;
-    --accent: 217 89% 61%; /* Google Accent Blue */
+    --background: 0 0% 0%; /* Black background */
+    --foreground: 0 0% 100%; /* White text */
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 0 0% 10%; /* Dark accent */
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 197 85% 43%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
     --radius: 0.5rem;
   }
 
@@ -33,6 +33,6 @@
   }
 
   body {
-    @apply bg-white text-dark font-sans;
+    @apply bg-dark text-white font-sans;
   }
 }

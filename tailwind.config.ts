@@ -19,7 +19,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Roboto", "Arial", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -28,19 +28,19 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#0FA0CE", // Google Blue
+          DEFAULT: "#64748b",
           foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#33C3F0", // Light Google Blue
+          DEFAULT: "#0ea5e9",
           foreground: "#ffffff",
         },
         accent: {
-          DEFAULT: "#4285F4", // Google Accent Blue
+          DEFAULT: "#1e1e1e",
           foreground: "#ffffff",
         },
         dark: {
-          DEFAULT: "#333333", // Google Dark Gray
+          DEFAULT: "#000000",
           foreground: "#ffffff",
         }
       },
